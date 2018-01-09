@@ -1,0 +1,56 @@
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\bin\Debug\trabFinal.exe.config
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.csprojResolveAssemblyReference.cache
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formCadFilmes.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formCadSalas.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formCadSessoes.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formCadUsuarios.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formLogin.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formMenu.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formMovCompras.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.Properties.Resources.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.csproj.GenerateResource.Cache
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formPesqFilmes.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formGrafFilmes.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.formRelCompras.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\bin\Debug\trabFinal.exe
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\bin\Debug\trabFinal.pdb
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\bin\Debug\EntityFramework.dll
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\bin\Debug\EntityFramework.SqlServer.dll
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\bin\Debug\EntityFramework.xml
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\bin\Debug\EntityFramework.SqlServer.xml
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.exe
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.pdb
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.bdInicial.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.textoSessao.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.textoSessao2.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.textoSessao3.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.exclusaoOcupados.resources
+D:\Thales\Documentos\Dropbox\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.reinclusaoOcupados.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\bin\Debug\trabFinal.exe.config
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.exe
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.pdb
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\bin\Debug\trabFinal.exe
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\bin\Debug\trabFinal.pdb
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\bin\Debug\EntityFramework.dll
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\bin\Debug\EntityFramework.SqlServer.dll
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\bin\Debug\EntityFramework.xml
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\bin\Debug\EntityFramework.SqlServer.xml
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.csprojResolveAssemblyReference.cache
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formCadFilmes.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formCadSalas.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formCadSessoes.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formCadUsuarios.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formLogin.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formMenu.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formMovCompras.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formPesqFilmes.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formGrafFilmes.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.formRelCompras.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.bdInicial.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.textoSessao.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.textoSessao2.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.textoSessao3.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.exclusaoOcupados.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.Migrations.reinclusaoOcupados.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.Properties.Resources.resources
+D:\Thales\Documentos\Dropbox\ADS\Semestre 3\Laboratório de Programação II\trabFinal\trabFinal\obj\Debug\trabFinal.csproj.GenerateResource.Cache

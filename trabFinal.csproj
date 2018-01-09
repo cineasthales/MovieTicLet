@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{748D40F0-A7AD-4B23-9F4F-6C8A2BE1CCFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>trabFinal</RootNamespace>
+    <AssemblyName>trabFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Compras.cs" />
+    <Compile Include="Classes\Filmes.cs" />
+    <Compile Include="Classes\ModelDB.cs" />
+    <Compile Include="Classes\Salas.cs" />
+    <Compile Include="Classes\Sessoes.cs" />
+    <Compile Include="Classes\Usuarios.cs" />
+    <Compile Include="DAO\ComprasDAO.cs" />
+    <Compile Include="DAO\FilmesDAO.cs" />
+    <Compile Include="DAO\SalasDAO.cs" />
+    <Compile Include="DAO\SessoesDAO.cs" />
+    <Compile Include="DAO\UsuariosDAO.cs" />
+    <Compile Include="formCadFilmes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCadFilmes.designer.cs">
+      <DependentUpon>formCadFilmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCadSalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCadSalas.designer.cs">
+      <DependentUpon>formCadSalas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCadSessoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCadSessoes.designer.cs">
+      <DependentUpon>formCadSessoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCadUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCadUsuarios.designer.cs">
+      <DependentUpon>formCadUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMenu.designer.cs">
+      <DependentUpon>formMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMovCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMovCompras.designer.cs">
+      <DependentUpon>formMovCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPesqFilmes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPesqFilmes.designer.cs">
+      <DependentUpon>formPesqFilmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formGrafFilmes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGrafFilmes.designer.cs">
+      <DependentUpon>formGrafFilmes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRelCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRelCompras.designer.cs">
+      <DependentUpon>formRelCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606282332149_bdInicial.cs" />
+    <Compile Include="Migrations\201606282332149_bdInicial.Designer.cs">
+      <DependentUpon>201606282332149_bdInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606291824267_textoSessao.cs" />
+    <Compile Include="Migrations\201606291824267_textoSessao.Designer.cs">
+      <DependentUpon>201606291824267_textoSessao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606291825325_textoSessao2.cs" />
+    <Compile Include="Migrations\201606291825325_textoSessao2.Designer.cs">
+      <DependentUpon>201606291825325_textoSessao2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606291841239_textoSessao3.cs" />
+    <Compile Include="Migrations\201606291841239_textoSessao3.Designer.cs">
+      <DependentUpon>201606291841239_textoSessao3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606300133125_exclusaoOcupados.cs" />
+    <Compile Include="Migrations\201606300133125_exclusaoOcupados.Designer.cs">
+      <DependentUpon>201606300133125_exclusaoOcupados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606300228106_reinclusaoOcupados.cs" />
+    <Compile Include="Migrations\201606300228106_reinclusaoOcupados.Designer.cs">
+      <DependentUpon>201606300228106_reinclusaoOcupados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formCadFilmes.resx">
+      <DependentUpon>formCadFilmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCadSalas.resx">
+      <DependentUpon>formCadSalas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCadSessoes.resx">
+      <DependentUpon>formCadSessoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCadUsuarios.resx">
+      <DependentUpon>formCadUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMenu.resx">
+      <DependentUpon>formMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMovCompras.resx">
+      <DependentUpon>formMovCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPesqFilmes.resx">
+      <DependentUpon>formPesqFilmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formGrafFilmes.resx">
+      <DependentUpon>formGrafFilmes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRelCompras.resx">
+      <DependentUpon>formRelCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606282332149_bdInicial.resx">
+      <DependentUpon>201606282332149_bdInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606291824267_textoSessao.resx">
+      <DependentUpon>201606291824267_textoSessao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606291825325_textoSessao2.resx">
+      <DependentUpon>201606291825325_textoSessao2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606291841239_textoSessao3.resx">
+      <DependentUpon>201606291841239_textoSessao3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606300133125_exclusaoOcupados.resx">
+      <DependentUpon>201606300133125_exclusaoOcupados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606300228106_reinclusaoOcupados.resx">
+      <DependentUpon>201606300228106_reinclusaoOcupados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
